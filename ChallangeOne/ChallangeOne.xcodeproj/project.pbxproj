@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210E70362B44A8D6000FE9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E70352B44A8D6000FE9E4 /* AppDelegate.swift */; };
+		210E70382B44A8D6000FE9E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E70372B44A8D6000FE9E4 /* SceneDelegate.swift */; };
+		210E703A2B44A8D6000FE9E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E70392B44A8D6000FE9E4 /* ViewController.swift */; };
+		210E703D2B44A8D6000FE9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210E703B2B44A8D6000FE9E4 /* Main.storyboard */; };
+		210E703F2B44A8D7000FE9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 210E703E2B44A8D7000FE9E4 /* Assets.xcassets */; };
+		210E70422B44A8D7000FE9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210E70402B44A8D7000FE9E4 /* LaunchScreen.storyboard */; };
+		210E704D2B44A8D7000FE9E4 /* ChallangeOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E704C2B44A8D7000FE9E4 /* ChallangeOneTests.swift */; };
+		210E70572B44A8D7000FE9E4 /* ChallangeOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E70562B44A8D7000FE9E4 /* ChallangeOneUITests.swift */; };
+		210E70592B44A8D7000FE9E4 /* ChallangeOneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210E70582B44A8D7000FE9E4 /* ChallangeOneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210E70492B44A8D7000FE9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210E702A2B44A8D6000FE9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210E70312B44A8D6000FE9E4;
+			remoteInfo = ChallangeOne;
+		};
+		210E70532B44A8D7000FE9E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210E702A2B44A8D6000FE9E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210E70312B44A8D6000FE9E4;
+			remoteInfo = ChallangeOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		210E70322B44A8D6000FE9E4 /* ChallangeOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallangeOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210E70352B44A8D6000FE9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		210E70372B44A8D6000FE9E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		210E70392B44A8D6000FE9E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		210E703C2B44A8D6000FE9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		210E703E2B44A8D7000FE9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		210E70412B44A8D7000FE9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		210E70432B44A8D7000FE9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210E70482B44A8D7000FE9E4 /* ChallangeOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallangeOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210E704C2B44A8D7000FE9E4 /* ChallangeOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeOneTests.swift; sourceTree = "<group>"; };
+		210E70522B44A8D7000FE9E4 /* ChallangeOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallangeOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210E70562B44A8D7000FE9E4 /* ChallangeOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeOneUITests.swift; sourceTree = "<group>"; };
+		210E70582B44A8D7000FE9E4 /* ChallangeOneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeOneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210E702F2B44A8D6000FE9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210E70452B44A8D7000FE9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210E704F2B44A8D7000FE9E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210E70292B44A8D6000FE9E4 = {
+			isa = PBXGroup;
+			children = (
+				210E70342B44A8D6000FE9E4 /* ChallangeOne */,
+				210E704B2B44A8D7000FE9E4 /* ChallangeOneTests */,
+				210E70552B44A8D7000FE9E4 /* ChallangeOneUITests */,
+				210E70332B44A8D6000FE9E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		210E70332B44A8D6000FE9E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210E70322B44A8D6000FE9E4 /* ChallangeOne.app */,
+				210E70482B44A8D7000FE9E4 /* ChallangeOneTests.xctest */,
+				210E70522B44A8D7000FE9E4 /* ChallangeOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210E70342B44A8D6000FE9E4 /* ChallangeOne */ = {
+			isa = PBXGroup;
+			children = (
+				210E70352B44A8D6000FE9E4 /* AppDelegate.swift */,
+				210E70372B44A8D6000FE9E4 /* SceneDelegate.swift */,
+				210E70392B44A8D6000FE9E4 /* ViewController.swift */,
+				210E703B2B44A8D6000FE9E4 /* Main.storyboard */,
+				210E703E2B44A8D7000FE9E4 /* Assets.xcassets */,
+				210E70402B44A8D7000FE9E4 /* LaunchScreen.storyboard */,
+				210E70432B44A8D7000FE9E4 /* Info.plist */,
+			);
+			path = ChallangeOne;
+			sourceTree = "<group>";
+		};
+		210E704B2B44A8D7000FE9E4 /* ChallangeOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				210E704C2B44A8D7000FE9E4 /* ChallangeOneTests.swift */,
+			);
+			path = ChallangeOneTests;
+			sourceTree = "<group>";
+		};
+		210E70552B44A8D7000FE9E4 /* ChallangeOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				210E70562B44A8D7000FE9E4 /* ChallangeOneUITests.swift */,
+				210E70582B44A8D7000FE9E4 /* ChallangeOneUITestsLaunchTests.swift */,
+			);
+			path = ChallangeOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210E70312B44A8D6000FE9E4 /* ChallangeOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210E705C2B44A8D7000FE9E4 /* Build configuration list for PBXNativeTarget "ChallangeOne" */;
+			buildPhases = (
+				210E702E2B44A8D6000FE9E4 /* Sources */,
+				210E702F2B44A8D6000FE9E4 /* Frameworks */,
+				210E70302B44A8D6000FE9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallangeOne;
+			productName = ChallangeOne;
+			productReference = 210E70322B44A8D6000FE9E4 /* ChallangeOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		210E70472B44A8D7000FE9E4 /* ChallangeOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210E705F2B44A8D7000FE9E4 /* Build configuration list for PBXNativeTarget "ChallangeOneTests" */;
+			buildPhases = (
+				210E70442B44A8D7000FE9E4 /* Sources */,
+				210E70452B44A8D7000FE9E4 /* Frameworks */,
+				210E70462B44A8D7000FE9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210E704A2B44A8D7000FE9E4 /* PBXTargetDependency */,
+			);
+			name = ChallangeOneTests;
+			productName = ChallangeOneTests;
+			productReference = 210E70482B44A8D7000FE9E4 /* ChallangeOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		210E70512B44A8D7000FE9E4 /* ChallangeOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210E70622B44A8D7000FE9E4 /* Build configuration list for PBXNativeTarget "ChallangeOneUITests" */;
+			buildPhases = (
+				210E704E2B44A8D7000FE9E4 /* Sources */,
+				210E704F2B44A8D7000FE9E4 /* Frameworks */,
+				210E70502B44A8D7000FE9E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210E70542B44A8D7000FE9E4 /* PBXTargetDependency */,
+			);
+			name = ChallangeOneUITests;
+			productName = ChallangeOneUITests;
+			productReference = 210E70522B44A8D7000FE9E4 /* ChallangeOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210E702A2B44A8D6000FE9E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					210E70312B44A8D6000FE9E4 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					210E70472B44A8D7000FE9E4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 210E70312B44A8D6000FE9E4;
+					};
+					210E70512B44A8D7000FE9E4 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 210E70312B44A8D6000FE9E4;
+					};
+				};
+			};
+			buildConfigurationList = 210E702D2B44A8D6000FE9E4 /* Build configuration list for PBXProject "ChallangeOne" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210E70292B44A8D6000FE9E4;
+			productRefGroup = 210E70332B44A8D6000FE9E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210E70312B44A8D6000FE9E4 /* ChallangeOne */,
+				210E70472B44A8D7000FE9E4 /* ChallangeOneTests */,
+				210E70512B44A8D7000FE9E4 /* ChallangeOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210E70302B44A8D6000FE9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210E70422B44A8D7000FE9E4 /* LaunchScreen.storyboard in Resources */,
+				210E703F2B44A8D7000FE9E4 /* Assets.xcassets in Resources */,
+				210E703D2B44A8D6000FE9E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210E70462B44A8D7000FE9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210E70502B44A8D7000FE9E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210E702E2B44A8D6000FE9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210E703A2B44A8D6000FE9E4 /* ViewController.swift in Sources */,
+				210E70362B44A8D6000FE9E4 /* AppDelegate.swift in Sources */,
+				210E70382B44A8D6000FE9E4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210E70442B44A8D7000FE9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210E704D2B44A8D7000FE9E4 /* ChallangeOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210E704E2B44A8D7000FE9E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210E70572B44A8D7000FE9E4 /* ChallangeOneUITests.swift in Sources */,
+				210E70592B44A8D7000FE9E4 /* ChallangeOneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		210E704A2B44A8D7000FE9E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210E70312B44A8D6000FE9E4 /* ChallangeOne */;
+			targetProxy = 210E70492B44A8D7000FE9E4 /* PBXContainerItemProxy */;
+		};
+		210E70542B44A8D7000FE9E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210E70312B44A8D6000FE9E4 /* ChallangeOne */;
+			targetProxy = 210E70532B44A8D7000FE9E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		210E703B2B44A8D6000FE9E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210E703C2B44A8D6000FE9E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		210E70402B44A8D7000FE9E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210E70412B44A8D7000FE9E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210E705A2B44A8D7000FE9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		210E705B2B44A8D7000FE9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		210E705D2B44A8D7000FE9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZJPA3L44D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChallangeOne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyguncil.ChallangeOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		210E705E2B44A8D7000FE9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZJPA3L44D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChallangeOne/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyguncil.ChallangeOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		210E70602B44A8D7000FE9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZJPA3L44D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyguncil.ChallangeOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallangeOne.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallangeOne";
+			};
+			name = Debug;
+		};
+		210E70612B44A8D7000FE9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZJPA3L44D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyguncil.ChallangeOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChallangeOne.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChallangeOne";
+			};
+			name = Release;
+		};
+		210E70632B44A8D7000FE9E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZJPA3L44D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyguncil.ChallangeOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChallangeOne;
+			};
+			name = Debug;
+		};
+		210E70642B44A8D7000FE9E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KZJPA3L44D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyguncil.ChallangeOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChallangeOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210E702D2B44A8D6000FE9E4 /* Build configuration list for PBXProject "ChallangeOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210E705A2B44A8D7000FE9E4 /* Debug */,
+				210E705B2B44A8D7000FE9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210E705C2B44A8D7000FE9E4 /* Build configuration list for PBXNativeTarget "ChallangeOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210E705D2B44A8D7000FE9E4 /* Debug */,
+				210E705E2B44A8D7000FE9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210E705F2B44A8D7000FE9E4 /* Build configuration list for PBXNativeTarget "ChallangeOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210E70602B44A8D7000FE9E4 /* Debug */,
+				210E70612B44A8D7000FE9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210E70622B44A8D7000FE9E4 /* Build configuration list for PBXNativeTarget "ChallangeOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210E70632B44A8D7000FE9E4 /* Debug */,
+				210E70642B44A8D7000FE9E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210E702A2B44A8D6000FE9E4 /* Project object */;
+}
